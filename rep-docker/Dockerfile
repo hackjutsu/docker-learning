@@ -11,15 +11,16 @@ RUN apt-get update && apt-get install -y build-essential \
                                          libfreetype6-dev \
                                          libjpeg8-dev \
                                          liblapack-dev \
+					 libncurses5-dev \
                                          libpng-dev \
                                          libxft-dev \
-                                         python3-dev \
-                                         python3-matplotlib \
-                                         python3-numpy \
-                                         python3-pip \
-                                         python3-scipy \
-                                         python3-setuptools \
-                                         python3-nose \
-                                         python3-pandas \
-                                         python-sympy
-RUN pip3 install --upgrade pip3 && pip3 install -r https://raw.githubusercontent.com/chenditc/docker-learning/master/rep-docker/rep-requirement.txt
+                                         python-dev \
+                                         python-matplotlib \
+                                         python-numpy \
+                                         python-pip \
+                                         python-scipy \
+                                         python-setuptools \
+                                         python-nose \
+                                         python-pandas \
+					 python-sympy
+RUN pip install -r https://raw.githubusercontent.com/chenditc/docker-learning/master/rep-docker/rep-requirement.txt
