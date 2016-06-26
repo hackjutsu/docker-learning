@@ -22,4 +22,4 @@ RUN apt-get update && apt-get install -y build-essential \
                                          python3-nose \
                                          python3-pandas \
                                          python-sympy
-RUN pip3 install --upgrade pip3 && pip3 install -r https://raw.githubusercontent.com/chenditc/docker-learning/master/rep-requirement.txt
+RUN pip3 install --upgrade pip3 && pip3 install -r https://raw.githubusercontent.com/chenditc/docker-learning/master/rep-docker/rep-requirement.txt
