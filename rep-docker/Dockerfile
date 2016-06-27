@@ -26,4 +26,5 @@ RUN apt-get update && apt-get install -y build-essential \
                                          python-pandas \
                                          python-sympy
 RUN pip install -r https://raw.githubusercontent.com/chenditc/docker-learning/master/rep-docker/rep-requirement.txt
+RUN pip install --pre xgboost
 RUN pip install rep --no-dependencies
