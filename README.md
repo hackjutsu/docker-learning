@@ -4,5 +4,5 @@
 ### Ubuntu 14.04
 
 ```
-curl 'https://raw.githubusercontent.com/chenditc/docker-learning/master/install.sh' | bash
+curl 'https://raw.githubusercontent.com/chenditc/docker-learning/master/install.sh' | sudo bash
 ```
