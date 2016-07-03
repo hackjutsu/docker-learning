@@ -8,5 +8,6 @@ apt-cache policy docker-engine
 sudo apt-get -y install linux-image-extra-$(uname -r)
 sudo apt-get -y install apparmor
 sudo apt-get -y install apparmor
+sleep 10
 sudo apt-get -y install docker-engine
 sudo service docker start
