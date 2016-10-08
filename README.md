@@ -7,3 +7,7 @@
 curl 'https://raw.githubusercontent.com/chenditc/docker-learning/master/install.sh' > install.sh
 sudo bash install.sh
 ```
+
+### Official Guide
+
+https://docker.github.io/engine/installation/
